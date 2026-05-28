@@ -70,7 +70,27 @@
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
 </script>
-   
+   // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCYovHgEX38HNmvpx9nxra_vlgzVnEPbxw",
+  authDomain: "payzenanalyticsapp-9a395.firebaseapp.com",
+  projectId: "payzenanalyticsapp-9a395",
+  storageBucket: "payzenanalyticsapp-9a395.firebasestorage.app",
+  messagingSenderId: "399611834581",
+  appId: "1:399611834581:web:c3dbe672e5d5998e84f25c",
+  measurementId: "G-V99Y9S2Z6R"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 </head>
 <body>
     <header>
