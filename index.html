@@ -91,6 +91,9 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+     onclick="firebase.analytics().logEvent('feature_activation', {
+ feature: 'Smart Budgeting'
+})">Activate Smart Budgeting</button>
 </head>
 <body>
     <header>
